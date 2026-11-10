@@ -1,11 +1,21 @@
-<div align="center">
+# PocketPal AI (Android Edition)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+PocketPal AI is a full-featured Android application built with **Kotlin** and **Jetpack Compose**. It provides an open, private local and cloud AI companion experience.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **AI Chat Experience**: Live streaming responses, session history management, customizable system prompts, and temperature controls.
+- **Pals & Personas**: Pre-packaged and custom-creatable AI personas (Code Companion, Creative Writer, STEM Tutor, Roleplay Detective) categorized by domain.
+- **Model Catalog**: Local GGUF model manager and Hugging Face import.
+- **Hardware Benchmarking**: Real-time NDK & CPU matrix calculations to measure Tokens Per Second (TPS), Time to First Token (TTFT), and memory footprint.
+- **Multimodal & Voice**: Image attachment support for visual analysis and integrated Text-to-Speech playback.
+- **Material 3 Design**: Fully custom dark/light dynamic theme built for Android.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Tech Stack
 
-</div>
+- **Language**: Kotlin 2.0
+- **UI Framework**: Jetpack Compose with Material Design 3
+- **Database**: Room Database
+- **Asynchronous**: Kotlin Coroutines & Flow
+- **Image Loading**: Coil
+- **Build System**: Gradle (Kotlin DSL)

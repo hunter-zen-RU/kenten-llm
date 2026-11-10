@@ -1,0 +1,8 @@
+{
+  "name": "Kenten LLM",
+  "description": "Private, on-device AI companion with local LLM models, hands-free voice mode, local API server, and hardware performance benchmarks by Hunter zen RU.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
